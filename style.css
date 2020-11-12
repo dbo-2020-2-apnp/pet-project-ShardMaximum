@@ -1,3 +1,19 @@
 .azul {
   color:blueviolet;
 }
+
+body {
+  background-image: url("background.gif");
+  background-attachment: fixed;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
