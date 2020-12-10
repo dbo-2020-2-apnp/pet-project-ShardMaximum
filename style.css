@@ -1,14 +1,10 @@
-.azul {
-  color:blueviolet;
-}
-
 body {
   background-image: url("background.gif");
   background-attachment: fixed;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-h1 {
+h1.top {
   text-align: center;
 }
 
@@ -16,4 +12,28 @@ img {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+section {
+  padding-left: 2px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  background-color:rgba(255, 255, 255, 0.7);
+}
+
+div.voltopo {
+  position: fixed;
+  right:5px;
+  bottom:5px;
+  padding-left: 2px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  background-color:rgba(255, 255, 255, 0.7);
+}
+
+* {
+  color: darkred;
+  padding-bottom:5px;
 }
